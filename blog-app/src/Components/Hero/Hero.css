@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; 
+    background-color: rgb(89, 21, 89);/* Center items vertically */
+  }
+
+  h2{
+    font-weight: bold;
+  }
+  
+  .hero-content {
+    flex: 1; /* Allow the content to grow and take available space */
+    padding: 20px; 
+    margin-left: 60px;
+    color:#777/* Add padding for spacing */
+  }
+  
+  .hero-image {
+    flex: 1; /* Allow the image to grow and take available space */
+    text-align: right; /* Align image to the right */
+  }
+  
+  /* Additional styling for the image */
+  .hero-image img {
+    max-width: 100%;
+    height: 325px;
+    margin-right: 60px;
+     /* Ensure the image doesn't exceed its container width */
+  }
+  

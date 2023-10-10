@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 40px;
+    margin-right: 10px; 
+    color: rgb(89, 21, 89);
+}
+
+h1 {
+    font-weight: 500;
+    color: rgb(89, 21, 89);
+}
+
+.navLinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 20px
+}
+
+.navLinks li {
+    margin-right: 10px; 
+}
+
+.navLink {
+    text-decoration: none;
+    color: rgb(89, 21, 89);
+    font-weight: bold;
+    margin-left: 15px;
+}
