@@ -1,0 +1,83 @@
+.new{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.content{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.content input{
+    padding: 10px;
+    border: 1px solid lightgray;
+
+}
+
+.editors-box{
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid lightgray;
+}
+
+.editor{
+    height: 100%;
+    border: none
+
+}
+
+
+
+.menu{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #777;
+    margin-right: 20px;
+}
+
+.file label{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.choose{
+    padding: 15px
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.button-draft{
+    color: #fff;
+    background-color: rgb(0, 234, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button-update{
+    color: #fff;
+    background-color: rgb(89,21, 89);
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}

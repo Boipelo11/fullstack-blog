@@ -1,5 +1,6 @@
 import './Navbar.css'
 import {GiCoffeeCup} from 'react-icons/gi'
+import {NavLink} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,17 +10,20 @@ const Navbar = () => {
     <h1>DevLife</h1>
     </div>
     <div className="navLinks">
-    <ul>
+      <nav>
+      <ul>
         <li>
-            <a href="" className="navLink">Home</a>
+            <NavLink to="/" className="navLink">Home</NavLink>
         </li>
         <li>
-            <a href="" className="navLink">Add Blog</a>
+        <NavLink to="/add" className="navLink">Add Blog</NavLink>
         </li>
         <li>
-            <a href="" className="navLink">Login</a>
+        <NavLink to="login" className="navLink">Login</NavLink>
         </li>
     </ul>
+      </nav>
+   
     </div>
     </div>
   )

@@ -1,8 +1,16 @@
 .hero {
     display: flex;
-    justify-content: space-between; /* Align items horizontally */
+    justify-content: space-between; 
     align-items: center; 
-    background-color: rgb(89, 21, 89);/* Center items vertically */
+    background-color: rgb(89, 21, 89);
+  }
+
+  .hero span{
+    color: rgb(0, 234, 255);
+  }
+
+  .hero h1{
+    color: #cfcece
   }
 
   h2{
@@ -10,22 +18,32 @@
   }
   
   .hero-content {
-    flex: 1; /* Allow the content to grow and take available space */
+    flex: 1; 
     padding: 20px; 
     margin-left: 60px;
-    color:#777/* Add padding for spacing */
+    color:#cfcece
+  }
+
+  .hero-content button{
+    padding: 15px;
+    color: #e6e3e3;
+    border: 1px;
+    border-radius: 30px;
+    background-color: rgb(0, 234, 255);
+    margin-top: 10px;
+    font-weight: 700;
   }
   
   .hero-image {
-    flex: 1; /* Allow the image to grow and take available space */
-    text-align: right; /* Align image to the right */
+    flex: 1; 
+    text-align: right; 
   }
   
-  /* Additional styling for the image */
+  
   .hero-image img {
     max-width: 100%;
     height: 325px;
     margin-right: 60px;
-     /* Ensure the image doesn't exceed its container width */
+     
   }
   

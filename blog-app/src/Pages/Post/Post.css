@@ -1,0 +1,65 @@
+.single-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-left: 30px;
+    justify-content: center;
+}
+
+
+.single-cover  {
+        width: 700px;
+        height: 300px;
+        border-radius: 15px;
+    }
+ .user{
+    display: flex
+ }
+
+.author{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+span{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.article-icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 14px;
+}
+
+.delete{
+    color: rgb(231, 35, 35);
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+.edit{
+    color: rgb(0, 255, 217);
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+
+
+
+.description{
+    
+    line-height: 30px;
+}
+
+.post-title{
+    
+    font-weight: bolder;
+    color: #555;
+}
