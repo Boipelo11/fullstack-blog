@@ -21,6 +21,9 @@ const Navbar = () => {
         <li>
         <NavLink to="login" className="navLink">Login</NavLink>
         </li>
+        <li>
+        <NavLink to="register" className="navLink">Sign Up</NavLink>
+        </li>
     </ul>
       </nav>
    

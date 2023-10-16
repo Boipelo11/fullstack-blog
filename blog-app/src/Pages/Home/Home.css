@@ -70,6 +70,10 @@
 
 }
 
+.blog-footer{
+margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
     .blogList-wrap {
         grid-template-columns: repeat(2, 1fr);

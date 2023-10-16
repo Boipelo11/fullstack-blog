@@ -10,7 +10,9 @@ import money from '../../assets/money.jpg';
 import robot from '../../assets/robot.jpg';
 import rest from '../../assets/rest.jpg';
 import techColour from '../../assets/tech-color.jpg';
+import {Link} from 'react-router-dom'
 
+//all data for the blogs
 const postData = 
 [
   {
@@ -100,7 +102,7 @@ const postData =
 ];
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(postData); // Assuming you have a list of blog posts in `postData`
+  const [blogs, setBlogs] = useState(postData); 
   const [searchKey, setSearchKey] = useState('');
 
   // Search submit
@@ -111,7 +113,7 @@ const Home = () => {
 
   // Search for blog by category
   const handleSearchResults = () => {
-    const allBlogs = postData; // Assuming you have a list of all blog posts
+    const allBlogs = postData; 
     const filteredBlogs = allBlogs.filter((blog) =>
       blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
@@ -144,16 +146,16 @@ const Home = () => {
                 <Chip label={post.category} />
                 <h3>{post.title}</h3>
                 <p className="blogItem-desc">{post.description}</p>
-                <footer>
+                <footer className="blog-footer">
                   <div className="blogItem-author">
                     <div>
                       <h6>{post.authorName}</h6>
                       <p>{post.createdAt}</p>
                     </div>
                   </div>
-                  {/* <Link className='blogItem-link' to={`/blog/${id}`}>
+                 <Link className='blogItem-link' to={`/post/${post.id}`}>
                       ➝
-                  </Link>  */}
+                  </Link> 
                 </footer>
               </div>
             </div>
